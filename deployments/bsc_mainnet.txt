@@ -1,22 +1,10 @@
-cat > deployments/bsc_mainnet.txt << 'EOF'
-# آدرس قراردادها در شبکه اصلی BSC
-# شبکه: BSC Mainnet (Chain ID: 56)
+# آدرس قرارداد USDT بریج شده در شبکه BSC
+# توکن: Tether USD Bridged (ZED20 Standard)
 
-## قرارداد استیبل‌کوین
-آدرس: 0xf7a8908defff69ce4c73ad69f291687f5914d1d8
-اکسپلورر: https://bscscan.com/address/0xf7a8908defff69ce4c73ad69f291687f5914d1d8
+آدرس قرارداد: 0xf7a8908defff69ce4c73ad69f291687f5914d1d8
+نام توکن: Tether USD Bridged ZED20
+نماد توکن: USDT.z
+اعشار: 18
 
-## قرارداد استخر پنکیک‌سواپ
-آدرس: 0xe79fd16a987e23734ed17337f284ad1a635c7ed1
-اکسپلورر: https://bscscan.com/address/0xe79fd16a987e23734ed17337f284ad1a635c7ed1
-
-## مشخصات قراردادها
-- کامپایلر: Solidity 0.8.x
-- استاندارد: ERC-20
-- شبکه: BNB Smart Chain (BSC)
-
-## نکات مهم
-1. این آدرس‌ها در شبکه اصلی فعال هستند.
-2. قبل از تعامل، آدرس را دوباره بررسی کنید.
-3. برای تست ابتدا از شبکه تستنت استفاده کنید.
-EOF
+# استخر مرتبط در پنکیک‌سواپ
+آدرس استخر: 0xe79fd16a987e23734ed17337f284ad1a635c7ed1
