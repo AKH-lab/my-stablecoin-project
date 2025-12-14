@@ -1,12 +1,18 @@
-# 🪙 پروژه استیبل‌کوین در BSC
+# 🪙 Tether USD Bridged (ZED20) on BSC
 
-پیاده‌سازی کامل قرارداد هوشمند استیبل‌کوین و مدیریت استخر نقدینگی پنکیک‌سواپ در شبکه BNB Smart Chain.
+A bridged version of Tether USD (USDT) on BNB Smart Chain using ZED20 standard.
 
-## 📍 آدرس قراردادها (شبکه اصلی BSC)
+## 📍 Contract Address (BSC Mainnet)
 
-| قرارداد | آدرس | لینک مشاهده |
-|---|---|---|
-| **استیبل‌کوین** | `0xf7a8908defff69ce4c73ad69f291687f5914d1d8` | [مشاهده در BscScan](https://bscscan.com/address/0xf7a8908defff69ce4c73ad69f291687f5914d1d8) |
-| **استخر پنکیک‌سواپ** | `0xe79fd16a987e23734ed17337f284ad1a635c7ed1` | [مشاهده در BscScan](https://bscscan.com/address/0xe79fd16a987e23734ed17337f284ad1a635c7ed1) |
+| Parameter | Value |
+|---|---|
+| **Contract Address** | `0xf7a8908defff69ce4c73ad69f291687f5914d1d8` |
+| **Token Name** | Tether USD Bridged ZED20 |
+| **Token Symbol** | USDT.z |
+| **Decimals** | 18 |
+| **Explorer Link** | [View on BscScan](https://bscscan.com/address/0xf7a8908defff69ce4c73ad69f291687f5914d1d8) |
 
-## 🏗️ ساختار پروژه
+## 🔗 Related Pool Address
+| Contract | Address |
+|---|---|
+| **PancakeSwap Pool** | `0xe79fd16a987e23734ed17337f284ad1a635c7ed1` |
