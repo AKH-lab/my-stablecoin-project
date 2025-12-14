@@ -1,0 +1,38 @@
+cat > .gitignore << 'EOF'
+# وابستگی‌ها
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# کلیدهای خصوصی و اطلاعات حساس
+.env
+.env.local
+.secret
+*.pem
+*.key
+
+# محیط‌های توسعه
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# خروجی‌های کامپایل
+artifacts/
+cache/
+coverage/
+typechain/
+hardhat-cache/
+
+# لاگ‌ها
+logs/
+*.log
+
+# سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# تست‌ها
+test-results/
+EOF
